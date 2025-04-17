@@ -12,10 +12,10 @@ class Container03 extends StatelessWidget {
         decoration: new ShapeDecoration(
             color: Colors.purple[200],
             shadows: <BoxShadow>[
-              BoxShadow(color: Colors.purple.shade900, blurRadius: 15)
+              BoxShadow(color: Colors.purple.shade900, blurRadius: 30)
             ],
             shape:new Border.all(
-              color: Colors.blue.shade300,
+              color: Colors.white,
               width: 5
             )
         ),
